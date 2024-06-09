@@ -11,8 +11,9 @@ public:
     Cat();
     //Cat()=default;
     ~Cat();
-    void sayHello();
+    void sayHello() const; // const mean: this func not change member vars
     std::string name;
+    int GetAge() const {return 1;}
 };
 
 #endif
