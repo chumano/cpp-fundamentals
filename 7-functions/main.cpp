@@ -28,7 +28,7 @@ int main()
 
 
     std::vector<int> data = {1, 2, 3, 4, 5};
-    int result = sum(data); // Calls sum with 5 arguments
+    int result = sum(data);
     std::cout << "Sum: " << result << std::endl;
      return 0;
 };
