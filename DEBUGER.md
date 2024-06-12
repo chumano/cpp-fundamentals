@@ -1,4 +1,8 @@
 # Useful GDB commands:
+```bash
+# debug program 
+gdb program
+```
 Here are a few useful commands to get started with GDB.
 
 Command	Description
